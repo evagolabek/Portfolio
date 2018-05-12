@@ -1,0 +1,19 @@
+.project-list {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+}
+
+/* .nav-bar {
+  width: 100%;
+  height: 50px;
+  border: 2px solid black;
+}
+
+.projects {
+  font-family: monospace;
+  font-size: 20px;
+} */

@@ -1,13 +1,14 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import {Card, CardMedia, CardTitle} from 'material-ui'
+import {Card, CardMedia, CardTitle, CardText } from 'material-ui'
+import './ProjectCard.css'
 
 
 
 export class ProjectCard extends PureComponent {
   static propTypes = {
     name: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
     backendCode: PropTypes.string.isRequired,
     frontendCode: PropTypes.number.isRequired,
   }
@@ -17,9 +18,15 @@ export class ProjectCard extends PureComponent {
     return(
       <Card className = 'project-card'>
         <CardMedia>
-          <link src={this.props.link} alt="" />
+          <img src={this.props.img} alt="" />
         </CardMedia>
-        <CardTitle title={this.props.name} subtitle={this.props.origin} />
+        <CardTitle title={this.props.name}/>
+        <CardText>
+          {this.props.frontendCode}
+          <br/>
+          <br/>
+          {this.props.backendCode}
+        </CardText>
       </Card>
     )
   }

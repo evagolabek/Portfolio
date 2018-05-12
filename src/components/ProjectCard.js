@@ -17,7 +17,7 @@ export class ProjectCard extends PureComponent {
 
     return(
       <Card className = 'project-card'>
-        <CardMedia>
+        <CardMedia className = 'card-image'>
           <img src={this.props.img} alt="" />
         </CardMedia>
         <CardTitle title={this.props.name}/>

@@ -4,15 +4,17 @@
 
 .nav-bar2 {
   width: 100%;
-  height: 200px;
+  height: 230px;
   /* background-color: grey; */
   background:url('/images/teqskills.png');
   /* border: 1px solid black; */
 }
 
 .side-bar {
-  width: 10%;
+  width: 250px;
   float: left;
+  /* border-right: 1px solid black; */
+  height: 300px;
 }
 
 .projects {
@@ -21,8 +23,20 @@
 }
 
 .title {
+  color: grey;
+  font-family: roboto;
+  font-size: 35px;
+  background-color: lightblue;
+}
 
-  color: red;
-  font-family: serif;
-  font-size: 25px;
+.profile-img {
+  width: 200px;
+  margin: auto;
+  margin-top: 25px;
+
+}
+
+.profile-img img {
+  width: 100%;
+  border: 5px solid lightblue;
 }

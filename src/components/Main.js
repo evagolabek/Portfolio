@@ -7,20 +7,20 @@ const projects =
 [
   {
     name: "Flexicon",
-    img: "../images/flexicon.png",
+    img: "../images/flexicon2.png",
     backendCode: "backendCode",
     frontendCode: "frontendCode"
   },
 
   {
     name: "Battleship",
-    img: "../images/battleship.png",
+    img: "../images/battleship2.png",
     backendCode: "backendCode",
     frontendCode: "frontendCode"
   },
   {
     name: "Evaluation App",
-    // img: "../images/evaluationapp.png",
+    img: "../images/evaluationapp2.png",
     backendCode: "backendCode",
     frontendCode: "frontendCode"
   },

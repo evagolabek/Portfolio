@@ -1,4 +1,9 @@
 .project-card {
-  border: 2px solid lightblue;
+  border: 2px solid lightgreen;
   width:300px;
+}
+
+.card-image {
+  /* border: 2px solid lightgreen; */
+  height: 300px;
 }

@@ -1,5 +1,6 @@
 .project-card {
-  border: 2px solid lightgreen;
+  border: 1px solid black;
+  padding: 5px;
   width:300px;
 }
 

@@ -4,7 +4,7 @@
 
 .nav-bar {
   width: 100%;
-  height: 230px;
+  height: 200px;
   /* background-color: grey; */
   background:url('/images/teqskills.png');
   /* border: 1px solid black; */
@@ -35,16 +35,19 @@
   width: 200px;
   margin: auto;
   margin-top: 25px;
+  margin-bottom: 20px;
 
 }
 
 .profile-img img {
   width: 100%;
-  border: 4px solid lightblue;
+  border: 1px solid black;
+
 }
 
 .about {
   font-family: monospace;
-  background-color: lightgreen;
-  border: 4px solid lightpink;
+  /* background-color: lightgreen; */
+  border: 1px solid black;
+  margin-left: 10px;
 }

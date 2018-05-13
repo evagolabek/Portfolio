@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import Main from './components/Main'
+import renderHTML from 'react-render-html'
 
 class App extends Component {
   render() {
@@ -23,7 +24,7 @@ class App extends Component {
                 My other strengths are that I am a fast learner, highly self-motivated and adaptable to changing circumstances and environments.</text>
               </div>
               <br/>
-              LINKEDIN PROFILE
+              {renderHTML(`<a href="https://www.linkedin.com/in/eva-golabek-puget-24303840/">LinkedIn</a>`)}
             </div>
             <div className='projects'>
               <Route exact path="/" component={Main} />

@@ -10,13 +10,19 @@ class App extends Component {
       <Router>
         <MuiThemeProvider>
           <div className="App">
-            <div className="nav-bar2">
-              <div className="title">Eva Golabek-Puget</div>
-            </div>
+            <div className="title">Eva Golabek-Puget</div>
+            <div className="nav-bar"></div>
             <div className='side-bar'>
               <div className='profile-img'>
                 <img src={'/images/me.png'} alt="" />
               </div>
+              <div className = 'about'>
+                <br/>
+                <text> I am a junior web developer with previous experience and interest in fashion and marketing.
+                I have strong interpersonal skills developed both within education and work.
+                My other strengths are that I am a fast learner, highly self-motivated and adaptable to changing circumstances and environments.</text>
+              </div>
+              <br/>
               LINKEDIN PROFILE
             </div>
             <div className='projects'>

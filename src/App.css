@@ -4,9 +4,9 @@
 
 .nav-bar {
   width: 100%;
-  height: 200px;
-  /* background-color: grey; */
-  background:url('/images/teqskills.png');
+  height: 100px;
+  background-color: white;
+  /* background:url('/images/teqskills.png'); */
   /* border: 1px solid black; */
 }
 
@@ -23,31 +23,32 @@
 }
 
 .title {
-  color: green;
-  height: 55px;
+  color: #666699;
+  height: 25px;
   font-family: monospace;
   font-size: 35px;
-  margin-top: 10px;
+  margin-top: 40px;
   /* background-color: lightblue; */
 }
 
 .profile-img {
   width: 200px;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 15px;
   margin-bottom: 20px;
 
 }
 
 .profile-img img {
   width: 100%;
-  border: 1px solid black;
+  border: 2px solid #602040;
 
 }
 
 .about {
   font-family: monospace;
+  color: #602040;
   /* background-color: lightgreen; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-left: 10px;
 }

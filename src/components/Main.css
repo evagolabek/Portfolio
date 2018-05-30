@@ -1,11 +1,15 @@
+
 .project-list {
-  /* border: 2px solid black; */
+  /* border: 5px solid purple; */
   display: flex;
+  float: left;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 100%;
-  margin: auto;
-  margin-top: 15px;
+  width: 980px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: 150px;
+  margin-top: 5px;
 }
 
 /* .nav-bar {
